@@ -143,17 +143,17 @@ nav button:hover {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;           /* ছোট স্ক্রিনে নিচে নামবে */
-    justify-content: center;   /* center এ রাখবে */
-    gap: 30px;                 /* কার্ডের মাঝে গ্যাপ */
+    flex-wrap: wrap;           
+    justify-content: center;   
+    gap: 30px;                
 }
 
 .card {
     background: linear-gradient(180deg, #5b20d1, #7e076e);
     border-radius: 12px;
     padding: 25px;
-    flex: 1 1 200px;           /* min-width 250px হবে */
-    max-width: 215px;          /* কার্ড খুব বেশি বড় হবে না */
+    flex: 1 1 200px;          
+    max-width: 215px;        
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -249,8 +249,8 @@ nav button:hover {
      background: linear-gradient(180deg, #5b20d1, #7e076e);
     border-radius: 12px;
     padding: 25px;
-    flex: 1 1 200px;           /* min-width 250px হবে */
-    max-width: 355px;          /* কার্ড খুব বেশি বড় হবে না */
+    flex: 1 1 200px;          
+    max-width: 355px;        
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -262,6 +262,7 @@ nav button:hover {
 
 
 }
+
 
 
 
